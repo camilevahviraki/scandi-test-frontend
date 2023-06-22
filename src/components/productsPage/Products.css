@@ -1,0 +1,114 @@
+.products_page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+    padding-bottom: 70px;
+}
+
+.header-wrapp {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: start;
+    box-shadow: 0px 2px 4px #76767678;
+}
+
+.buttons-wrapp {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.button-add {
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px #010509;
+    background-color: #044182;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.products-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.product-wrapp {
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    box-shadow: 1px 2px 10px #97979798;
+    border-radius: 6px;
+}
+
+.header-wrapp h4 {
+    font-size: 20px;
+}
+
+.product-wrapp h5 {
+    margin: 10px 0;
+}
+
+.delete-checkbox-wrapp {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.checkBox {
+    display: none;
+}
+
+.checked {
+    background-color: #023554c2;
+    color: #fff!important;
+}
+
+label {
+    cursor: pointer;
+}
+
+.delete-checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(185, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #023554;
+    box-shadow: 1px 1px 3px #50595b43;
+}
+
+.product-attribute {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.product-attribute span {
+    font-size: 13px;
+    font-weight: 700;
+}

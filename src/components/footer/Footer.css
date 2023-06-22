@@ -1,0 +1,13 @@
+.footer-wrapp {
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0px -4px 4px #97979771;
+}
