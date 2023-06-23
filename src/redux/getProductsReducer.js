@@ -44,7 +44,7 @@ export const deleteProducts = (data) => (dispatch) => {
     }).catch((_err) => {
       dispatch({
         type: DELETE_PRODUCTS,
-        data: { products: [], error: "Error, Could\'nt delete products"  }
+        data: { products: [], error: "Error, Couldnt delete products"  }
       })
     });
 };

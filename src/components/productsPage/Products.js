@@ -19,7 +19,7 @@ const Products = () => {
     if (!checkedProduct.includes(id)) {
       setCheckedProduct([...checkedProduct, id]);
     } else {
-      const newData = checkedProduct.filter((el) => el != id);
+      const newData = checkedProduct.filter((el) => el !== id);
       setCheckedProduct(newData);
     }
   }

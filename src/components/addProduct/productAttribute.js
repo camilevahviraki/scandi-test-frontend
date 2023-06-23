@@ -6,7 +6,6 @@ const ProductAttribute = (props) => {
         productType, setAttributeValue
     } = props;
 
-    const [value, setValue] = useState({ attributeValue: null });
     const [height, setHeight] = useState('');
     const [length, setLenght] = useState('');
     const [width, setWidth] = useState('');
@@ -24,10 +23,8 @@ const ProductAttribute = (props) => {
                 setWidth(attributeValue);
             }
             const data = { height, width, length };
-            setValue({ attributeValue: data });
             setAttributeValue({ attributeValue: data, attributeName: 'dimentions' });
         } else {
-            setValue({ attributeValue, attributeName });
             setAttributeValue({ attributeValue, attributeName });
         }
     }

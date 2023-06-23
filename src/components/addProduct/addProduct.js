@@ -50,8 +50,6 @@ const AddProduct = () => {
 
         const product = { name, sku, price, attributeName, attributeValue, sizeMB, weightKG, dimentions };
 
-        console.log(product);
-
         const checkFields = ValidateFields(product);
         if (checkFields.status) {
             const dimentions = product.dimentions;
