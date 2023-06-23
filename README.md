@@ -18,9 +18,7 @@
 
 # 📖 Sandi Junior Developer Test <a name="about-project"></a>
 
-> The todo List App allow you to have a list of important daily tasks and manage them easily.
-> You can have the possibility to delete a task once it's done.
-> You can edit a task if your plans changed
+> Store products online
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -39,10 +37,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - Simple overview and access
-- Data are stored in the users computer
-- Desktop and mobile version of the website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,6 +45,10 @@
 ### Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://juniortest-camile-vahviraki.netlify.app/)
+
+### Backend Repository <a name="backend"></a>
+
+- [Backend repo](https://github.com/camilevahviraki/scandi-backend)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
