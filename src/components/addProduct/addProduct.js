@@ -85,7 +85,7 @@ const AddProduct = () => {
                         <button className='button-add' id="add-product-button" type='submit'>{showLoader ? <TbLoader3 className='loader' /> : 'Save'}</button>
                         <button
                             className='button-add'
-                            id="#cancel-button"
+                            id="cancel-button"
                             onClick={cancelSubmit}
                         >Cancel</button>
                     </div>
@@ -106,7 +106,7 @@ const AddProduct = () => {
 
                 <div className='input-wrapp'>
                     <label htmlFor='productType'>Product Type</label>
-                    <select id="producType" name='productType' onChange={handleProductType}>
+                    <select id="productType" name='productType' onChange={handleProductType}>
                         <option value="Book">Book</option>
                         <option value="DVD">DVD</option>
                         <option value="Furniture">Furniture</option>
