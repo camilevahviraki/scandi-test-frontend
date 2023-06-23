@@ -17,7 +17,7 @@ const getProductReducer = (state = { products: [] }, action) => {
 };
 
 export const getProducts = () => (dispatch) => {
-  axios.get(`${linkURL}/products`)
+  axios.get(`${linkURL}`)
     .then((response) => {
       dispatch(
         {
@@ -29,7 +29,7 @@ export const getProducts = () => (dispatch) => {
 };
 
 export const deleteProducts = (data) => (dispatch) => {
-  axios.post(`${linkURL}/deleteProducts`, { data }, {
+  axios.post(`${linkURL}`, { data, delete: 1 }, {
     headers: {
       'Content-Type': 'multipart/form-data',
     }
