@@ -41,7 +41,7 @@ const AddProduct = () => {
         if (attribute.attributeValue) {
             if (productType === 'Book' && attribute.attributeValue.length > 0) {
                 weightKG = attribute.attributeValue;
-            } else if (productType === 'DVD' && attribute.attributeValue > 0) {
+            } else if (productType === 'DVD' && attribute.attributeValue.length > 0) {
                 sizeMB = attribute.attributeValue;
             } else if (attribute.attributeValue && productType === 'Furniture') {
                 dimentions = attribute.attributeValue;
