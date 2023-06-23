@@ -1,33 +1,37 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const ProductAttribute = (props) => {
+
+    const [height, setHeight] = useState('');
+    const [length, setLength] = useState('');
+    const [width, setWidth] = useState('');
 
     const {
         productType, setAttributeValue
     } = props;
 
-    const [height, setHeight] = useState('');
-    const [length, setLenght] = useState('');
-    const [width, setWidth] = useState('');
-
     const handleChangeValue = (e) => {
         const attributeName = e.target.name;
         const attributeValue = e.target.value;
         if (productType === 'Furniture') {
-
             if (attributeName === 'height') {
                 setHeight(attributeValue);
             } else if (attributeName === 'length') {
-                setLenght(attributeValue);
+                setLength(attributeValue);
             } else if (attributeName === 'width') {
                 setWidth(attributeValue);
             }
-            const data = { height, width, length };
-            setAttributeValue({ attributeValue: data, attributeName: 'dimentions' });
         } else {
             setAttributeValue({ attributeValue, attributeName });
         }
     }
+
+    useEffect(() => {
+        if (productType === 'Furniture') {
+            const data = { height, width, length };
+            setAttributeValue({ attributeValue: data, attributeName: 'dimentions' });
+        }
+    }, [height, width, length]);
 
     const renderDVD = () => {
         return (<div className='attribute' id="DVD">
