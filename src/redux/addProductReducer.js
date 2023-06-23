@@ -17,7 +17,7 @@ const addProductReducer = (state = {}, action) => {
 };
 
 export const addProduct = (data) => (dispatch) => {
-  axios.post(`${linkURL}/newProduct`, { data: JSON.stringify(data) }, {
+  axios.post(`${linkURL}`, { data: JSON.stringify(data), delete: 0 }, {
     headers: {
       'Content-Type': 'multipart/form-data',
     }
