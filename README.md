@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 📗 Table of Contents <a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📖 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+- [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+  - [🚀 Live Demo](#live-demo)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📖 Sandi Junior Developer Test <a name="about-project"></a>
 
-### `npm start`
+> The todo List App allow you to have a list of important daily tasks and manage them easily.
+> You can have the possibility to delete a task once it's done.
+> You can edit a task if your plans changed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <ul>
+    <li><a href="#">html</a></li>
+    <li><a href="#">css</a></li>
+    <li><a href="#">javascript</a></li>
+    <li><a href="#">php</a></li>
+  </ul>
+</details>
 
-### `npm run build`
+### Key Features <a name="key-features"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Simple overview and access
+- Data are stored in the users computer
+- Desktop and mobile version of the website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Live Demo <a name="live-demo"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Live Demo Link]()
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Learn More
+### Prerequisites <a name="prerequisites"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to run this project you need:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A code editor like Visual Studio Code
 
-### Code Splitting
+### Setup  <a name="setup"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone this repository to your desired folder:
 
-### Analyzing the Bundle Size
+- copy this link `https://github.com/camilevahviraki/scandi-test-frontend.git`.
+- write `git clone https://github.com/camilevahviraki/scandi-test-frontend.git`.
+- `cd scandi-test-frontend`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Install <a name="install"></a>
 
-### Making a Progressive Web App
+Install this project with: node package manager using npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `npm install`
 
-### Advanced Configuration
+### Usage <a name="usage"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run the project, execute the following command:
 
-### Deployment
+- `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-### `npm run build` fails to minify
+You can deploy this project using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `npm run build`
+
+- Github pages
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author1**
+
+- GitHub: [@camilevahviraki](https://github.com/camilevahviraki)
+- Twitter: [@camilevahviraki](https://twitter.com/CamileVahviraki)
+- LinkedIn: [camilevahviraki](https://www.linkedin.com/in/camile-vahviraki)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Add the drag and drop functionnality
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+## ⭐️ Show your support <a name="support"></a>
+
+> You can show your support for the project by giving us a ⭐️.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Scandiweb
+
