@@ -51,6 +51,10 @@
 
 - [Live Demo Link](https://juniortest-camile-vahviraki.netlify.app/)
 
+### Backend Repositiry <a name="backend"></a>
+
+- [Backend repo](https://github.com/camilevahviraki/scandi-backend)
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
